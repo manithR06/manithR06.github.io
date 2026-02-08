@@ -12,7 +12,7 @@ const About = ({ darkMode }) => {
       <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
         {/* IMAGE */}
         <div className="flex justify-center lg:justify-start order-2 lg:order-1">
-          <div className="relative w-72 h-40 sm:w-90 sm:h-160">
+          <div className="relative w-72 h-140 sm:w-90 sm:h-160">
             {/* Glow */}
             <div className="absolute -inset-4 rounded-full bg-gradient-to-r from-green-500/40 via-green-400/30 to-orange-500/30 blur-xl" />
 
@@ -131,3 +131,4 @@ const About = ({ darkMode }) => {
 };
 
 export default About;
+
