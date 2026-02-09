@@ -7,7 +7,7 @@ const Projects = ({ darkMode }) => {
       description:
         "A simulated Security Operations Center dashboard that analyzes system logs, detects suspicious activity, and visualizes alerts for incident response.",
       tech: ["Python", "SIEM", "Log Analysis"],
-      github: "#",
+      github: "https://github.com/manithR06/SOC-log-monitoring-dashboard",
       demo: "#",
     },
     {
@@ -114,3 +114,4 @@ const Projects = ({ darkMode }) => {
 };
 
 export default Projects;
+
