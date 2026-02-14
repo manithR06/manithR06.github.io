@@ -16,7 +16,7 @@ const Projects = ({ darkMode }) => {
         "A rule-based phishing detection system that evaluates URLs to identify malicious patterns and prevent social engineering attacks.",
       tech: ["Python", "Cybersecurity", "Regex"],
       github: "#",
-      demo: "#",
+      demo: "https://maniths-phish-url-detector.streamlit.app/",
     },
     {
       title: "Secure Authentication System",
@@ -114,4 +114,5 @@ const Projects = ({ darkMode }) => {
 };
 
 export default Projects;
+
 
